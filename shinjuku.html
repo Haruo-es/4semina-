@@ -149,6 +149,20 @@
         }
       }
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyAiV2ZbFIYuD3N4hzGLstSn2e4ZG5A7QlU&callback=initMap&libraries=places" async defer></script>
+     </script>
+     <script>
+      function loadFinished(){
+	console.log("xx1");
+        setcafe();
+        setfamires();
+        sethamburger(); 
+        setkaraoke();
+        setnetcafe();
+        console.log("xx2");
+      }
+      window.onload = loadFinished;
+    </script>
 	<!-- ここまで終わり -->
   </body>
 </html>
