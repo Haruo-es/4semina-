@@ -205,7 +205,7 @@ function initMap() {
     center: latlng,
     zoom: 1
   });
-  createData(ko_data.results);
+  createData(kodaira_data.results);
   cafe();
   setcafe(map);
   famires();
