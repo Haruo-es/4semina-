@@ -98,7 +98,7 @@ function createMarker(i, place) {
   });
 	var openingHour = openingHours(fGetWeek(), place, i)
     
-    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●国分寺駅から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
+    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●小平キャンパスから' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
 	
     if(place[i].website){
 	contentStr = contentStr + place[i].website + '>ホームページ</a> / '
@@ -205,7 +205,7 @@ function initMap() {
     center: latlng,
     zoom: 1
   });
-  createData(kokubunji_data.results);
+  createData(ko_data.results);
   cafe();
   setcafe(map);
   famires();
