@@ -48,16 +48,6 @@
 	  <!-- ここからはじまり -->
     <script type="text/javascript" src="shop_list/kodaira_data.js"></script>
     <script type="text/javascript" src="./kodaira_map.js"></script>
-    <script>
-      function loadFinished(){
-        cafe();
-        famires();
-        hamburger(); 
-        karaoke();
-        netcafe();
-      }
-      window.onload = loadFinished;
-    </script>
     
     <center>
       <br><br><br>
@@ -115,13 +105,39 @@
         function clickEvent(){
           
           console.log("ボタン押した");
-          //deleteMakers(markers_cafe);
-          markers_cafe = [];
-          markers_cafe.setMap(map);
-          
-         
+          deleteMakersAll(markers_cafe);
+	  if(cafebox.checked){
+            setcafe();
+          }
+          if(famiresbox.checked){
+            setfamires();
+          }
+          if(hamburgerbox.checked){
+            sethamburger();
+          }
+          if(karaokebox.checked){
+            setkaraoke();
+          }
+          if(netcafebox.checked){
+            setnetcafe();
+          }
+      
         }
      </script>
+     <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyAiV2ZbFIYuD3N4hzGLstSn2e4ZG5A7QlU&callback=initMap&libraries=places" async defer></script>
+     </script>
+     <script>
+      function loadFinished(){
+	console.log("xx1");
+        setcafe();
+        setfamires();
+        sethamburger(); 
+        setkaraoke();
+        setnetcafe();
+        console.log("xx2");
+      }
+      window.onload = loadFinished;
+    </script>
 	<!-- ここまで終わり -->
   </body>
 </html>
