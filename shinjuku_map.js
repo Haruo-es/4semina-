@@ -201,12 +201,12 @@ function deletemarkersall(){
 function initMap() {
   console.log("xx3");
   var target = document.getElementById('map');  
-  var latlng = {lat: 35.7002283, lng: 139.4805254};  //国分寺駅の緯度経度
+  var latlng = {lat: 35.690921, lng: 139.70025799999996};  //新宿駅の緯度経度
   map = new google.maps.Map(document.getElementById('map'), {
     center: latlng,
     zoom: 16
   });
-  createData(kokubunji_data.results);
+  createData(shinjuku_data.results);
   cafe();
   setcafe(map);
   famires();
