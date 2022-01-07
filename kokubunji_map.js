@@ -85,8 +85,8 @@ function openingHours(weeknum, place, i){
     return(str)
 }
 
-function createMarker(i, place) {
-  var marker = new google.maps.Marker({
+function createMarker(i, place, marker) {
+    marker[i] = new google.maps.Marker({
     position: { lat:place[i].lat, lng:place[i].lng },
     map: map,
     title: place[i].name,
@@ -121,31 +121,31 @@ function createMarker(i, place) {
 
 function cafe() {
   for (var i=0; i<place_cafe.length; i++) {
-      createMarker(i, place_cafe);
+      createMarker(i, place_cafe, markers_cafe);
   }
 }
 
 function famires() {
   for (var i=0; i<place_famires.length; i++) {
-      createMarker(i, place_famires);
+      createMarker(i, place_famires, markers_famires);
   }
 }
 
 function hamburger() {
   for (var i=0; i<place_hamburger.length; i++) {
-      createMarker(i, place_hamburger);
+      createMarker(i, place_hamburger, markers_hamburger);
   }
 }
 
 function karaoke() {
   for (var i=0; i<place_karaoke.length; i++) {
-      createMarker(i, place_karaoke);
+      createMarker(i, place_karaoke, markers_karaoke);
   }
 }
 
 function netcafe() {
   for (var i=0; i<place_netcafe.length; i++) {
-      createMarker(i, place_netcafe);
+      createMarker(i, place_netcafe, markers_netcafe);
   }
 }
 
@@ -179,7 +179,7 @@ function setnetcafe(){
   }
 }
 
-function deletemarkersall(){
+function hideMarkersall(){
   for(var i=0; i<markers_cafe.length; i++){
     markers_cafe[i].setMap(null);
   }
@@ -207,7 +207,6 @@ function initMap() {
   });
   createData(kokubunji_data.results);
   cafe();
-  setcafe(map);
   famires();
   hamburger();
   karaoke();
