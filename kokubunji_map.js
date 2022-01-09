@@ -86,9 +86,9 @@ function openingHours(weeknum, place, i){
 }
 
 function createMarker(i, place, marker) {
-    marker[i] = new google.maps.Marker({
+    var marker = new google.maps.Marker({
     position: { lat:place[i].lat, lng:place[i].lng },
-    //map: map,
+    map: map,
     title: place[i].name,
     icon: {
 	url: place[i].icon_path ,
