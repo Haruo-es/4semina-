@@ -104,7 +104,14 @@
         function clickEvent(){
           
           console.log("ボタン押した");
-          hideMakersall();
+          hideMakersAll();
+		
+	  cafebox = document.getElementById("cafebox");
+	  famiresbox = document.getElementById("famiresbox");
+	  hamburgerbox = document.getElementById("hamburgerbox");
+	  karaokebox = document.getElementById("karaokebox");
+	  netcafebox = document.getElementById("netcafebox");
+	  
 	  if(cafebox.checked){
             setcafe();
           }
