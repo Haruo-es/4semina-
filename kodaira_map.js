@@ -203,7 +203,7 @@ function initMap() {
   var latlng = {lat: 35.7217636, lng: 139.4667473};  //小平キャンパスの緯度経度
   map = new google.maps.Map(document.getElementById('map'), {
     center: latlng,
-    zoom: 16
+    zoom: 14
   });
   createData(kodaira_data.results);
   cafe();
