@@ -31,14 +31,13 @@ function createData(results) {
 	s = results[i].url;
 	t = results[i].website;
 	u = results[i].hours;
-	    
 	x["name"] = y;
 	x["price"] = z;
 	
 	x["distance"] = r;
 	x["url"] = s;
 	x["website"] = t;
-	x["hours"] = u;
+	x["opening_hours"] = u;
 
     switch(results[i].shop) {
       case "cafe":
