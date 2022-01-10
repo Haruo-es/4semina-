@@ -1567,64 +1567,65 @@ shinjuku_data = {
                 ]
             }
         },
-        {
-            "business_status": "OPERATIONAL",
-            "geometry": {
-                "location": {
-                    "lat": 35.6925768,
-                    "lng": 139.70139
-                },
-                "viewport": {
-                    "northeast": {
-                        "lat": 35.69381417989273,
-                        "lng": 139.7026883298928
-                    },
-                    "southwest": {
-                        "lat": 35.69111452010728,
-                        "lng": 139.6999886701073
-                    }
-                }
-            },
-            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-            "icon_background_color": "#FF9E67",
-            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-            "name": "喫茶室ルノアール 新宿アルタ横店",
-            "opening_hours": {
-                "open_now": false
-            },
-            "photos": [
-                {
-                    "height": 600,
-                    "html_attributions": [
-                        "<a href=\"https://maps.google.com/maps/contrib/118403055043105600781\">喫茶室ルノアール 新宿アルタ横店</a>"
-                    ],
-                    "photo_reference": "Aap_uEAklr7eK_JbiBN7MS-QDbW_Nx8vKg_NnAaeTn9jxFJS6Y1A9i7qkPZGjHQfkpeE2EFB-QI-gx3bJK8fDGXD0qYlHkPIzzGKH6osJApE2sBPjZLEddiRRwD1eStC4Axc_Ns_PdA5-xpLzo2-nIjBeNCKJiZty6Qu_1ly6ZawHP0-dnrW",
-                    "width": 800
-                }
-            ],
-            "place_id": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
-            "plus_code": {
-                "compound_code": "MPV2+2H 新宿区、東京都",
-                "global_code": "8Q7XMPV2+2H"
-            },
-            "price_level": 3,
-            "rating": 3.4,
-            "reference": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
-            "scope": "GOOGLE",
-            "types": [
-                "cafe",
-                "food",
-                "point_of_interest",
-                "store",
-                "establishment"
-            ],
-            "user_ratings_total": 428,
-            "vicinity": "新宿区新宿３丁目２４−２, 青木ビル, B1F",
-            "shop": "cafe",
-            "url": "https://www.google.com/search?q=喫茶室ルノアール+新宿アルタ横店&hl=ja&ie=UTF-8",
-            "distance": 210,
-            "phone": "03-3356-3738"
-        },
+        //閉店
+        //{
+            //"business_status": "OPERATIONAL",
+            //"geometry": {
+                //"location": {
+                    //"lat": 35.6925768,
+                    //"lng": 139.70139
+                //},
+                //"viewport": {
+                    //"northeast": {
+                        //"lat": 35.69381417989273,
+                        //"lng": 139.7026883298928
+                    //},
+                    //"southwest": {
+                        //"lat": 35.69111452010728,
+                        //"lng": 139.6999886701073
+                    //}
+                //}
+            //},
+            //"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            //"icon_background_color": "#FF9E67",
+            //"icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            //"name": "喫茶室ルノアール 新宿アルタ横店",
+            //"opening_hours": {
+                //"open_now": false
+            //},
+            //"photos": [
+                //{
+                    //"height": 600,
+                    //"html_attributions": [
+                        //"<a href=\"https://maps.google.com/maps/contrib/118403055043105600781\">喫茶室ルノアール 新宿アルタ横店</a>"
+                    //],
+                    //"photo_reference": "Aap_uEAklr7eK_JbiBN7MS-QDbW_Nx8vKg_NnAaeTn9jxFJS6Y1A9i7qkPZGjHQfkpeE2EFB-QI-gx3bJK8fDGXD0qYlHkPIzzGKH6osJApE2sBPjZLEddiRRwD1eStC4Axc_Ns_PdA5-xpLzo2-nIjBeNCKJiZty6Qu_1ly6ZawHP0-dnrW",
+                    //"width": 800
+                //}
+            //],
+            //"place_id": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
+            //"plus_code": {
+                //"compound_code": "MPV2+2H 新宿区、東京都",
+                //"global_code": "8Q7XMPV2+2H"
+            //},
+            //"price_level": 3,
+            //"rating": 3.4,
+            //"reference": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
+            //"scope": "GOOGLE",
+            //"types": [
+                //"cafe",
+                //"food",
+                //"point_of_interest",
+                //"store",
+                //"establishment"
+            //],
+            //"user_ratings_total": 428,
+            //"vicinity": "新宿区新宿３丁目２４−２, 青木ビル, B1F",
+            //"shop": "cafe",
+            //"url": "https://www.google.com/search?q=喫茶室ルノアール+新宿アルタ横店&hl=ja&ie=UTF-8",
+            //"distance": 210,
+            //"phone": "03-3356-3738"
+        //},
         {
             "business_status": "OPERATIONAL",
             "geometry": {
