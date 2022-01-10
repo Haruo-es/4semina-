@@ -117,9 +117,8 @@ function createMarker(i, place) {
     infoWindow.open(map, marker);
     currentInfoWindow = infoWindow;
   });
+	return(marker);
 }
-
-//markersに入れる
 
 function cafe() {
   for (var i=0; i<place_cafe.length; i++) {
@@ -151,8 +150,6 @@ function netcafe() {
   }
 }
 
-//表示
-
 function setcafe(map){
   for(var i=0; i<markers_cafe.length; i++){
     markers_cafe[i].setVisible(true);
@@ -183,23 +180,21 @@ function setnetcafe(){
   }
 }
 
-//非表示
-
-function deletemarkersall(){
+function hideMarkersAll(){
   for(var i=0; i<markers_cafe.length; i++){
-    markers_cafe[i].setMap(null);
+    markers_cafe[i].setVisible(false);
   }
   for(var j=0; j<markers_famires.length; j++){
-    markers_famires[j].setMap(null);
+    markers_famires[j].setVisible(false);
   }
   for(var k=0; k<markers_hamburger.length; k++){
-    markers_hamburger[k].setMap(null);
+    markers_hamburger[k].setVisible(false);
   }
   for(var l=0; l<markers_karaoke.length; l++){
-    markers_karaoke[l].setMap(null);
+    markers_karaoke[l].setVisible(false);
   }
   for(var m=0; m<markers_netcafe.length; m++){
-    markers_netcafe[m].setMap(null);
+    markers_netcafe[m].setVisible(false);
   }
 }
 
