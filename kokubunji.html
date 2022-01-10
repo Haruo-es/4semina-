@@ -75,8 +75,8 @@
       <input id="nomal" value="1" name="checkbox3" type="checkbox" checked><label for="s500m" class="checkbox01">500M以内</label>
       <input id="far" value="1" name="checkbox3" type="checkbox" checked><label for="" class="checkbox01">1KM以内</label>
       <p>個室の有無</p>
-      <input id="plari" value="1" name="scheckbox3" type="checkbox" checked><label for="plari" class="checkbox01">個室あり</label>
-      <input id="plnashi" value="1" name="checkbox3" type="checkbox" checked><label for="plnashi" class="checkbox01">個室なし</label>
+      <input id="prari" value="1" name="scheckbox3" type="checkbox" checked><label for="prari" class="checkbox01">個室あり</label>
+      <input id="prnashi" value="1" name="checkbox3" type="checkbox" checked><label for="prnashi" class="checkbox01">個室なし</label>
       <p>お店の種類</p>
       <input id="cafebox" value="1" name="checkbox3" type="checkbox" checked><label for="cafebox" class="checkbox01">カフェ</label>
       <input id="famiresbox" value="1" name="checkbox3" type="checkbox" checked><label for="famiresbox" class="checkbox01">ファミレス</label>
@@ -111,22 +111,28 @@
 	  hamburgerbox = document.getElementById("hamburgerbox");
 	  karaokebox = document.getElementById("karaokebox");
 	  netcafebox = document.getElementById("netcafebox");
+	  prari = document.getElementById("prari");
+	  prnashi = document.getElementById("prnashi");
 	  
-	  if(cafebox.checked){
-            setcafe();
-          }
-          if(famiresbox.checked){
-            setfamires();
-          }
-          if(hamburgerbox.checked){
-            sethamburger();
-          }
-          if(karaokebox.checked){
-            setkaraoke();
-          }
-          if(netcafebox.checked){
-            setnetcafe();
-          }
+	  if(prnashi.checked){
+	    if(cafebox.checked){
+              setcafe();
+            }
+            if(famiresbox.checked){
+              setfamires();
+            }
+            if(hamburgerbox.checked){
+              sethamburger();
+            }
+	  }
+	  if(prari.checked){
+            if(karaokebox.checked){
+              setkaraoke();
+            }
+            if(netcafebox.checked){
+              setnetcafe();
+            }
+	  }
       
         }
      </script>
