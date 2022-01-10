@@ -117,6 +117,7 @@ function createMarker(i, place) {
     infoWindow.open(map, marker);
     currentInfoWindow = infoWindow;
   });
+	return(marker);
 }
 
 function cafe() {
