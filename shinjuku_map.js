@@ -25,24 +25,22 @@ function fGetWeek(){
 }
 
 function createData(results) {
-    for (let i in results) {
-	x = results[i].geometry.location;
-	y = results[i].name;
-	z = results[i].price_level;
+  for (let i in results) {
+    x = results[i].geometry.location;
+    y = results[i].name;
+    z = results[i].price_level;
 
-	r = results[i].distance;
-	s = results[i].url;
-	t = results[i].website;
-	u = results[i].hours;
-	x["name"] = y;
-	x["price"] = z;
-	
-	x["distance"] = r;
-	x["url"] = s;
-	x["website"] = t;
-	x["opening_hours"] = u;
-
-  place_all.push(x);
+    r = results[i].distance;
+    s = results[i].url;
+    t = results[i].website;
+    u = results[i].hours;
+    x["name"] = y;
+    x["price"] = z;
+    x["distance"] = r;
+    x["url"] = s;
+    x["website"] = t;
+    x["opening_hours"] = u;
+    place_all.push(x);
 
   switch(results[i].shop) {
     case "cafe":
