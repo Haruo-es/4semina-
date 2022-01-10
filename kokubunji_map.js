@@ -3,6 +3,10 @@ var currentInfoWindow = null;
 
 var place_cafe = [], place_famires = [], place_hamburger = [], place_karaoke = [], place_netcafe = [];
 var markers_cafe = [], markers_famires = [], markers_hamburger = [], markers_karaoke = [], markers_netcafe = []; 
+var markers_cafe_nomal_near = [], markers_cafe_nomal_nomal = [], markers_cafe_nomal_far = [];
+var markers_cafe_ex_near = [], markers_cafe_ex_nomal = [], markers_cafe_ex_far = [];
+var markers_cafe_others_near = [], markers_cafe_others_nomal = [], markers_cafe_others_far = [];
+
 
 // 曜日の配列
 var week={
@@ -123,7 +127,32 @@ function createMarker(i, place) {
 //マーカー作成
 function cafe() {
   for (var i=0; i<place_cafe.length; i++) {
-      markers_cafe.push(createMarker(i, place_cafe));
+	  if(place_cafe.price_level = 3){
+		  if(place_cafe.distance =< 300){
+			  markers_cafe_nomal_near.push(createMarker(i, place_cafe));
+		  }else if(place_cafe.distance =< 500){
+			  markers_cafe_nomal_nomal.push(createMarker(i, place_cafe));
+		  }else{
+		  	  markers_cafe_nomal_far.push(createMarker(i, place_cafe));
+		  }
+	  }else if(place_cafe.price_level = 4){
+	  	if(place_cafe.distance =< 300){
+			markers_cafe_ex_near.push(createMarker(i, place_cafe));
+		}else if(place_cafe.distance =< 500){
+			markers_cafe_ex_nomal.push(createMarker(i, place_cafe));
+		}else{
+		  	markers_cafe_ex_far.push(createMarker(i, place_cafe));
+		}
+	  }else{
+	  	if(place_cafe.distance =< 300){
+			markers_cafe_far_near.push(createMarker(i, place_cafe));
+		}else if(place_cafe.distance =< 500){
+			markers_cafe_far_nomal.push(createMarker(i, place_cafe));
+		}else{
+		  	markers_cafe_far_far.push(createMarker(i, place_cafe));
+		}
+	  }
+  	  markers_cafe.push(createMarker(i, place_cafe));
   }
 }
 
@@ -156,6 +185,59 @@ function netcafe() {
 function setcafe(){
   for(var i=0; i<markers_cafe.length; i++){
     markers_cafe[i].setVisible(true);
+  }
+}
+
+function setcafe1(){
+  for(var i=0; i<markers_cafe_nomal_near.length; i++){
+    markers_cafe_nomal_near[i].setVisible(true);
+  }
+}
+
+function setcafe2(){
+  for(var i=0; i<markers_cafe_nomal_nomal.length; i++){
+    markers_cafe_nomal_nomal[i].setVisible(true);
+  }
+}
+
+function setcafe3(){
+  for(var i=0; i<markers_cafe_nomal_far.length; i++){
+    markers_cafe_nomal_far[i].setVisible(true);
+  }
+}
+
+function setcafe4(){
+  for(var i=0; i<markers_cafe_ex_near.length; i++){
+    markers_cafe_ex_near[i].setVisible(true);
+  }
+}
+function setcafe5(){
+  for(var i=0; i<markers_cafe_ex_nomal.length; i++){
+    markers_cafe_ex_nomal[i].setVisible(true);
+  }
+}
+
+function setcafe6(){
+  for(var i=0; i<markers_cafe_ex_far.length; i++){
+    markers_cafe_ex_far[i].setVisible(true);
+  }
+}
+
+function setcafe7(){
+  for(var i=0; i<markers_cafe_others_near.length; i++){
+    markers_cafe_others_near[i].setVisible(true);
+  }
+}
+
+function setcafe8(){
+  for(var i=0; i<markers_cafe_others_nomal.length; i++){
+    markers_cafe_others_noaml[i].setVisible(true);
+  }
+}
+
+function setcafe9(){
+  for(var i=0; i<markers_cafe_others_far.length; i++){
+    markers_cafe_others_far[i].setVisible(true);
   }
 }
 
