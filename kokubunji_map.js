@@ -120,6 +120,7 @@ function createMarker(i, place) {
 	return(marker);
 }
 
+//マーカー作成
 function cafe() {
   for (var i=0; i<place_cafe.length; i++) {
       markers_cafe.push(createMarker(i, place_cafe));
@@ -150,7 +151,9 @@ function netcafe() {
   }
 }
 
-function setcafe(map){
+
+//表示
+function setcafe(){
   for(var i=0; i<markers_cafe.length; i++){
     markers_cafe[i].setVisible(true);
   }
@@ -180,6 +183,7 @@ function setnetcafe(){
   }
 }
 
+//マーカー非表示
 function hideMarkersAll(){
   for(var i=0; i<markers_cafe.length; i++){
     markers_cafe[i].setVisible(false);
