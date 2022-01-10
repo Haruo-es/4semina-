@@ -1,7 +1,10 @@
 var map;
 var currentInfoWindow = null;
 
+var place_all = [];
 var place_cafe = [], place_famires = [], place_hamburger = [], place_karaoke = [], place_netcafe = [];
+var place_0 = [], place_1 = [], place_2 = [], place_3 = [], place_4 =[], place_5 = [];
+var place_200m = [], place_450m = [], place_700m = [];
 var markers_cafe = [], markers_famires = [], markers_hamburger = [], markers_karaoke = [], markers_netcafe = []; 
 
 // 曜日の配列
@@ -22,11 +25,11 @@ function fGetWeek(){
 }
 
 function createData(results) {
-    for (let i=0; i<results.length; i++) {
+    for (let i in results) {
 	x = results[i].geometry.location;
 	y = results[i].name;
 	z = results[i].price_level;
-	
+
 	r = results[i].distance;
 	s = results[i].url;
 	t = results[i].website;
@@ -39,40 +42,64 @@ function createData(results) {
 	x["website"] = t;
 	x["opening_hours"] = u;
 
-    switch(results[i].shop) {
-      case "cafe":
-	x["icon_path"] = './img/icon1.png'
-	place_cafe.push(x);
+  place_all.push(x);
+
+  switch(results[i].shop) {
+    case "cafe":
+      x["icon_path"] = './img/icon1.png'
+      place_cafe.push(x);
+      break;
+    case "famires":
+      x["icon_path"] = './img/icon2.png'
+      place_famires.push(x);
+      break;
+    case "hamburger":
+      x["icon_path"] = './img/icon3.png'
+      place_hamburger.push(x);
+      break;
+    case "karaoke":
+      x["icon_path"] = './img/icon4.png'
+      place_karaoke.push(x);
+      break;
+    case "netcafe":
+      x["icon_path"] = './img/icon5.png'
+      place_netcafe.push(x);
+      break;
+    }
+    
+    switch(results[i].price_level) {
+      case 4:
+        place_4.push(x);
         break;
-      case "famires":
-	x["icon_path"] = './img/icon2.png'
-	place_famires.push(x);
+      case 3:
+        place_3.push(x);
         break;
-      case "hamburger":
-	x["icon_path"] = './img/icon3.png'
-	place_hamburger.push(x);
+      case 2:
+        place_2.push(x);
         break;
-      case "karaoke":
-	x["icon_path"] = './img/icon4.png'
-	place_karaoke.push(x);
+      case 1:
+        place_1.push(x);
         break;
-      case "netcafe":
-	x["icon_path"] = './img/icon5.png'
-	place_netcafe.push(x);
+      case 0:
+        place_0.push(x);
         break;
+      default:
+        // price_level無し
+        place_5.push(x);
+    }
+
+    switch(true) {
+      case results[i].distance < 200:
+        place_200m.push(x);
+        break;      
+      case results[i].distance < 450:
+        place_450m.push(x);
+        break;      
+      case results[i].distance < 700:
+        place_700m.push(x);
+        break;      
     }
   } 
-  /*
-  place:
-  {
-    i:
-      lat: xxx
-      lng: yyy
-      name: "zzz"
-      price: 0
-      url: "https://..."
-  }
-  */
 }
 
 function openingHours(weeknum, place, i){
