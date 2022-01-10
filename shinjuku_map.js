@@ -232,7 +232,6 @@ function initMap() {
   });
   createData(shinjuku_data.results);
   cafe();
-  setcafe(map);
   famires();
   hamburger();
   karaoke();
