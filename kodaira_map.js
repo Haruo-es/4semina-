@@ -86,7 +86,7 @@ function openingHours(weeknum, place, i){
 }
 
 function createMarker(i, place) {
-  var marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
     position: { lat:place[i].lat, lng:place[i].lng },
     map: map,
     title: place[i].name,
@@ -98,7 +98,7 @@ function createMarker(i, place) {
   });
 	var openingHour = openingHours(fGetWeek(), place, i)
     
-    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●小平キャンパスから' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
+    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●国分寺駅から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
 	
     if(place[i].website){
 	contentStr = contentStr + place[i].website + '>ホームページ</a> / '
@@ -119,65 +119,71 @@ function createMarker(i, place) {
   });
 }
 
+//markersに入れる
+
 function cafe() {
   for (var i=0; i<place_cafe.length; i++) {
-      createMarker(i, place_cafe);
+      markers_cafe.push(createMarker(i, place_cafe));
   }
 }
 
 function famires() {
   for (var i=0; i<place_famires.length; i++) {
-      createMarker(i, place_famires);
+      markers_famires.push(createMarker(i, place_famires));
   }
 }
 
 function hamburger() {
   for (var i=0; i<place_hamburger.length; i++) {
-      createMarker(i, place_hamburger);
+      markers_hamburger.push(createMarker(i, place_hamburger));
   }
 }
 
 function karaoke() {
   for (var i=0; i<place_karaoke.length; i++) {
-      createMarker(i, place_karaoke);
+      markers_karaoke.push(createMarker(i, place_karaoke));
   }
 }
 
 function netcafe() {
   for (var i=0; i<place_netcafe.length; i++) {
-      createMarker(i, place_netcafe);
+      markers_netcafe.push(createMarker(i, place_netcafe));
   }
 }
 
+//表示
+
 function setcafe(map){
   for(var i=0; i<markers_cafe.length; i++){
-    markers_cafe[i].setMap(map);
+    markers_cafe[i].setVisible(true);
   }
 }
 
 function setfamires(){
   for(var i=0; i<markers_famires.length; i++){
-    markers_famires[i].setMap(map);
+    markers_famires[i].setVisible(true);
   }
 }
 
 function sethamburger(){
   for(var i=0; i<markers_hamburger.length; i++){
-    markers_hamburger[i].setMap(map);
+    markers_hamburger[i].setVisible(true);
   }
 }
 
 function setkaraoke(){
   for(var i=0; i<markers_karaoke.length; i++){
-    markers_karaoke[i].setMap(map);
+    markers_karaoke[i].setVisible(true);
   }
 }
 
 function setnetcafe(){
   for(var i=0; i<markers_netcafe.length; i++){
-    markers_netcafe[i].setMap(map);
+    markers_netcafe[i].setVisible(true);
   }
 }
+
+//非表示
 
 function deletemarkersall(){
   for(var i=0; i<markers_cafe.length; i++){
