@@ -207,7 +207,6 @@ function initMap() {
   });
   createData(kodaira_data.results);
   cafe();
-  setcafe(map);
   famires();
   hamburger();
   karaoke();
