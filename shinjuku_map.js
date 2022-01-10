@@ -42,62 +42,62 @@ function createData(results) {
     x["opening_hours"] = u;
     place_all.push(x);
 
-  switch(results[i].shop) {
-    case "cafe":
-      x["icon_path"] = './img/icon1.png'
-      place_cafe.push(x);
-      break;
-    case "famires":
-      x["icon_path"] = './img/icon2.png'
-      place_famires.push(x);
-      break;
-    case "hamburger":
-      x["icon_path"] = './img/icon3.png'
-      place_hamburger.push(x);
-      break;
-    case "karaoke":
-      x["icon_path"] = './img/icon4.png'
-      place_karaoke.push(x);
-      break;
-    case "netcafe":
-      x["icon_path"] = './img/icon5.png'
-      place_netcafe.push(x);
-      break;
-    }
+    switch(results[i].shop) {
+      case "cafe":
+        x["icon_path"] = './img/icon1.png'
+        place_cafe.push(x);
+        break;
+      case "famires":
+        x["icon_path"] = './img/icon2.png'
+        place_famires.push(x);
+        break;
+      case "hamburger":
+        x["icon_path"] = './img/icon3.png'
+        place_hamburger.push(x);
+        break;
+      case "karaoke":
+        x["icon_path"] = './img/icon4.png'
+        place_karaoke.push(x);
+        break;
+      case "netcafe":
+        x["icon_path"] = './img/icon5.png'
+        place_netcafe.push(x);
+        break;
+      }
     
-    switch(results[i].price_level) {
-      case 4:
-        place_4.push(x);
-        break;
-      case 3:
-        place_3.push(x);
-        break;
-      case 2:
-        place_2.push(x);
-        break;
-      case 1:
-        place_1.push(x);
-        break;
-      case 0:
-        place_0.push(x);
-        break;
-      default:
-        // price_level無し
-        place_5.push(x);
-    }
+      switch(results[i].price_level) {
+        case 4:
+          place_4.push(x);
+          break;
+        case 3:
+          place_3.push(x);
+          break;
+        case 2:
+          place_2.push(x);
+          break;
+        case 1:
+          place_1.push(x);
+          break;
+        case 0:
+          place_0.push(x);
+          break;
+        default:
+          // price_level無し
+          place_5.push(x);
+      }
 
-    switch(true) {
-      case results[i].distance < 200:
-        place_200m.push(x);
-        break;      
-      case results[i].distance < 450:
-        place_450m.push(x);
-        break;      
-      case results[i].distance < 700:
-        place_700m.push(x);
-        break;      
-    }
-  } 
+      switch(true) {
+        case results[i].distance < 200:
+          place_200m.push(x);
+          break;      
+        case results[i].distance < 450:
+          place_450m.push(x);
+          break;      
+        case results[i].distance < 700:
+          place_700m.push(x);
+          break;      
+      }
+   } 
 }
 
 function openingHours(weeknum, place, i){
