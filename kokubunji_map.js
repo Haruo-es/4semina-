@@ -506,7 +506,7 @@ function setkaraoke2(){
 
 function setkaraoke3(){
   for(var i=0; i<markers_karaoke_nomal_far.length; i++){
-    markers_cafe_karaoke_far[i].setVisible(true);
+    markers_karaoke_nomal_far[i].setVisible(true);
   }
 }
 
