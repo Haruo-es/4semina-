@@ -152,7 +152,9 @@ function cafe() {
 		  	markers_cafe_far_far.push(createMarker(i, place_cafe));
 		}
 	  }
-  	  markers_cafe.push(createMarker(i, place_cafe));
+  }
+  for (var j=0; j<place_cafe.length; j++) {
+	  markers_cafe.push(createMarker(j, place_cafe));
   }
 }
 
