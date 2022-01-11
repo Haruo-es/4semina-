@@ -284,6 +284,42 @@ function hideMarkersAll(){
   for(var m=0; m<markers_netcafe.length; m++){
     markers_netcafe[m].setVisible(false);
   }
+	
+  for(var i=0; i<markers_cafe_nomal_near.length; i++){
+    markers_cafe_nomal_near[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_nomal_nomal.length; i++){
+    markers_cafe_nomal_nomal[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_nomal_far.length; i++){
+    markers_cafe_nomal_far[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_ex_near.length; i++){
+    markers_cafe_ex_near[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_ex_nomal.length; i++){
+    markers_cafe_ex_nomal[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_ex_far.length; i++){
+    markers_cafe_ex_far[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_others_near.length; i++){
+    markers_cafe_others_near[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_others_nomal.length; i++){
+    markers_cafe_others_noaml[i].setVisible(false);
+  }
+
+  for(var i=0; i<markers_cafe_others_far.length; i++){
+    markers_cafe_others_far[i].setVisible(false);
+  }
 }
 
 function initMap() {
