@@ -103,7 +103,7 @@ function createData(results) {
 function openingHours(weeknum, place, i){
     var str = '不明';
     if(weeknum == 0){ weeknum = 7; }
-    if(place[i].opening_hours.weekday_text){
+    if(place[i].opening_hours){
 	s1 = place[i].opening_hours.weekday_text[weeknum-1];
 	str = s1.slice(4);
     }
