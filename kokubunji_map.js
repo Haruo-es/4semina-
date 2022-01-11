@@ -3,9 +3,26 @@ var currentInfoWindow = null;
 
 var place_cafe = [], place_famires = [], place_hamburger = [], place_karaoke = [], place_netcafe = [];
 var markers_cafe = [], markers_famires = [], markers_hamburger = [], markers_karaoke = [], markers_netcafe = []; 
+
 var markers_cafe_nomal_near = [], markers_cafe_nomal_nomal = [], markers_cafe_nomal_far = [];
 var markers_cafe_ex_near = [], markers_cafe_ex_nomal = [], markers_cafe_ex_far = [];
 var markers_cafe_others_near = [], markers_cafe_others_nomal = [], markers_cafe_others_far = [];
+
+var markers_famires_nomal_near = [], markers_famires_nomal_nomal = [], markers_famires_nomal_far = [];
+var markers_famires_ex_near = [], markers_famires_ex_nomal = [], markers_famires_ex_far = [];
+var markers_famires_others_near = [], markers_famires_others_nomal = [], markers_famires_others_far = [];
+
+var markers_hamburger_nomal_near = [], markers_hamburger_nomal_nomal = [], markers_hamburger_nomal_far = [];
+var markers_hamburger_ex_near = [], markers_hamburger_ex_nomal = [], markers_hamburger_ex_far = [];
+var markers_hamburger_others_near = [], markers_hamburger_others_nomal = [], markers_hamburger_others_far = [];
+
+var markers_karaoke_nomal_near = [], markers_karaoke_nomal_nomal = [], markers_karaoke_nomal_far = [];
+var markers_karaoke_ex_near = [], markers_karaoke_ex_nomal = [], markers_karaoke_ex_far = [];
+var markers_karaoke_others_near = [], markers_karaoke_others_nomal = [], markers_karaoke_others_far = [];
+
+var markers_netcafe_nomal_near = [], markers_netcafe_nomal_nomal = [], markers_netcafe_nomal_far = [];
+var markers_netcafe_ex_near = [], markers_netcafe_ex_nomal = [], markers_netcafe_ex_far = [];
+var markers_netcafe_others_near = [], markers_netcafe_others_nomal = [], markers_netcafe_others_far = [];
 
 
 // 曜日の配列
@@ -160,11 +177,65 @@ function cafe() {
 
 function famires() {
   for (var i=0; i<place_famires.length; i++) {
+	  if(place_famires.price_level = 3){
+		  if(place_famires.distance <= 300){
+			  markers_famires_nomal_near.push(createMarker(i, place_famires));
+		  }else if(place_famires.distance <= 500){
+			  markers_famires_nomal_nomal.push(createMarker(i, place_famires));
+		  }else{
+		  	  markers_famires_nomal_far.push(createMarker(i, place_famires));
+		  }
+	  }else if(place_famires.price_level = 4){
+	  	if(place_famires.distance <= 300){
+			markers_famires_ex_near.push(createMarker(i, place_famires));
+		}else if(place_famires.distance <= 500){
+			markers_famires_ex_nomal.push(createMarker(i, place_famires));
+		}else{
+		  	markers_famires_ex_far.push(createMarker(i, place_famires));
+		}
+	  }else{
+	  	if(place_famires.distance <= 300){
+			markers_famires_far_near.push(createMarker(i, place_famires));
+		}else if(place_famires.distance <= 500){
+			markers_famires_far_nomal.push(createMarker(i, place_famires));
+		}else{
+		  	markers_famires_far_far.push(createMarker(i, place_famires));
+		}
+	  }
+  }
+  for (var i=0; i<place_famires.length; i++) {
       markers_famires.push(createMarker(i, place_famires));
   }
 }
 
 function hamburger() {
+  for (var i=0; i<place_hamburger.length; i++) {
+	  if(place_hamburger.price_level = 3){
+		  if(place_hamburger.distance <= 300){
+			  markers_hamburger_nomal_near.push(createMarker(i, place_hamburger));
+		  }else if(place_hamburger.distance <= 500){
+			  markers_hamburger_nomal_nomal.push(createMarker(i, place_hamburger));
+		  }else{
+		  	  markers_hamburger_nomal_far.push(createMarker(i, place_hamburger));
+		  }
+	  }else if(place_hamburger.price_level = 4){
+	  	if(place_hamburger.distance <= 300){
+			markers_hamburger_ex_near.push(createMarker(i, place_hamburger));
+		}else if(place_hamburger.distance <= 500){
+			markers_hamburger_ex_nomal.push(createMarker(i, place_hamburger));
+		}else{
+		  	markers_hamburger_ex_far.push(createMarker(i, place_hamburger));
+		}
+	  }else{
+	  	if(place_hamburger.distance <= 300){
+			markers_hamburger_far_near.push(createMarker(i, place_hamburger));
+		}else if(place_hamburger.distance <= 500){
+			markers_hamburger_far_nomal.push(createMarker(i, place_hamburger));
+		}else{
+		  	markers_hamburger_far_far.push(createMarker(i, place_hamburger));
+		}
+	  }
+  }
   for (var i=0; i<place_hamburger.length; i++) {
       markers_hamburger.push(createMarker(i, place_hamburger));
   }
@@ -172,11 +243,65 @@ function hamburger() {
 
 function karaoke() {
   for (var i=0; i<place_karaoke.length; i++) {
+	  if(place_karaoke.price_level = 3){
+		  if(place_karaoke.distance <= 300){
+			  markers_karaoke_nomal_near.push(createMarker(i, place_karaoke));
+		  }else if(place_karaoke.distance <= 500){
+			  markers_karaoke_nomal_nomal.push(createMarker(i, place_karaoke));
+		  }else{
+		  	  markers_karaoke_nomal_far.push(createMarker(i, place_karaoke));
+		  }
+	  }else if(place_karaoke.price_level = 4){
+	  	if(place_karaoke.distance <= 300){
+			markers_karaoke_ex_near.push(createMarker(i, place_karaoke));
+		}else if(place_karaoke.distance <= 500){
+			markers_karaoke_ex_nomal.push(createMarker(i, place_karaoke));
+		}else{
+		  	markers_karaoke_ex_far.push(createMarker(i, place_karaoke));
+		}
+	  }else{
+	  	if(place_karaoke.distance <= 300){
+			markers_karaoke_far_near.push(createMarker(i, place_karaoke));
+		}else if(place_karaoke.distance <= 500){
+			markers_karaoke_far_nomal.push(createMarker(i, place_karaoke));
+		}else{
+		  	markers_karaoke_far_far.push(createMarker(i, place_karaoke));
+		}
+	  }
+  }
+  for (var i=0; i<place_karaoke.length; i++) {
       markers_karaoke.push(createMarker(i, place_karaoke));
   }
 }
 
 function netcafe() {
+  for (var i=0; i<place_netcafe.length; i++) {
+	  if(place_netcafe.price_level = 3){
+		  if(place_netcafe.distance <= 300){
+			  markers_netcafe_nomal_near.push(createMarker(i, place_netcafe));
+		  }else if(place_netcafe.distance <= 500){
+			  markers_netcafe_nomal_nomal.push(createMarker(i, place_netcafe));
+		  }else{
+		  	  markers_netcafe_nomal_far.push(createMarker(i, place_netcafe));
+		  }
+	  }else if(place_netcafe.price_level = 4){
+	  	if(place_netcafe.distance <= 300){
+			markers_netcafe_ex_near.push(createMarker(i, place_netcafe));
+		}else if(place_cafe.distance <= 500){
+			markers_netcafe_ex_nomal.push(createMarker(i, place_netcafe));
+		}else{
+		  	markers_netcafe_ex_far.push(createMarker(i, place_netcafe));
+		}
+	  }else{
+	  	if(place_netcafe.distance <= 300){
+			markers_netcafe_far_near.push(createMarker(i, place_netcafe));
+		}else if(place_netcafe.distance <= 500){
+			markers_netcafe_far_nomal.push(createMarker(i, place_netcafe));
+		}else{
+		  	markers_netcafe_far_far.push(createMarker(i, place_netcafe));
+		}
+	  }
+  }
   for (var i=0; i<place_netcafe.length; i++) {
       markers_netcafe.push(createMarker(i, place_netcafe));
   }
@@ -249,9 +374,115 @@ function setfamires(){
   }
 }
 
+function setfamires1(){
+  for(var i=0; i<markers_famires_nomal_near.length; i++){
+    markers_famires_nomal_near[i].setVisible(true);
+  }
+}
+
+function setfamires2(){
+  for(var i=0; i<markers_famires_nomal_nomal.length; i++){
+    markers_famires_nomal_nomal[i].setVisible(true);
+  }
+}
+
+function setfamires3(){
+  for(var i=0; i<markers_famires_nomal_far.length; i++){
+    markers_famires_nomal_far[i].setVisible(true);
+  }
+}
+
+function setfamires4(){
+  for(var i=0; i<markers_famires_ex_near.length; i++){
+    markers_famires_ex_near[i].setVisible(true);
+  }
+}
+function setfamires5(){
+  for(var i=0; i<markers_famires_ex_nomal.length; i++){
+    markers_famires_ex_nomal[i].setVisible(true);
+  }
+}
+
+function setfamires6(){
+  for(var i=0; i<markers_famires_ex_far.length; i++){
+    markers_famires_ex_far[i].setVisible(true);
+  }
+}
+
+function setfamires7(){
+  for(var i=0; i<markers_famires_others_near.length; i++){
+    markers_famires_others_near[i].setVisible(true);
+  }
+}
+
+function setfamires8(){
+  for(var i=0; i<markers_famires_others_nomal.length; i++){
+    markers_famires_others_noaml[i].setVisible(true);
+  }
+}
+
+function setfamires9(){
+  for(var i=0; i<markers_famires_others_far.length; i++){
+    markers_famires_others_far[i].setVisible(true);
+  }
+}
+
 function sethamburger(){
   for(var i=0; i<markers_hamburger.length; i++){
     markers_hamburger[i].setVisible(true);
+  }
+}
+
+function sethamburger1(){
+  for(var i=0; i<markers_hamburger_nomal_near.length; i++){
+    markers_hamburger_nomal_near[i].setVisible(true);
+  }
+}
+
+function sethamburger2(){
+  for(var i=0; i<markers_hamburger_nomal_nomal.length; i++){
+    markers_hamburger_nomal_nomal[i].setVisible(true);
+  }
+}
+
+function sethamburger3(){
+  for(var i=0; i<markers_hamburger_nomal_far.length; i++){
+    markers_hamburger_nomal_far[i].setVisible(true);
+  }
+}
+
+function sethamburger4(){
+  for(var i=0; i<markers_hamburger_ex_near.length; i++){
+    markers_hamburger_ex_near[i].setVisible(true);
+  }
+}
+function sethamburger5(){
+  for(var i=0; i<markers_hamburger_ex_nomal.length; i++){
+    markers_hamburger_ex_nomal[i].setVisible(true);
+  }
+}
+
+function sethamburger6(){
+  for(var i=0; i<markers_hamburger_ex_far.length; i++){
+    markers_hamburger_ex_far[i].setVisible(true);
+  }
+}
+
+function sethamburger7(){
+  for(var i=0; i<markers_hamburger_others_near.length; i++){
+    markers_hamburger_others_near[i].setVisible(true);
+  }
+}
+
+function sethamburger8(){
+  for(var i=0; i<markers_hamburger_others_nomal.length; i++){
+    markers_hamburger_others_noaml[i].setVisible(true);
+  }
+}
+
+function sethamburger9(){
+  for(var i=0; i<markers_hamburger_others_far.length; i++){
+    markers_hamburger_others_far[i].setVisible(true);
   }
 }
 
@@ -261,9 +492,115 @@ function setkaraoke(){
   }
 }
 
+function setkaraoke1(){
+  for(var i=0; i<markers_karaoke_nomal_near.length; i++){
+    markers_karaoke_nomal_near[i].setVisible(true);
+  }
+}
+
+function setkaraoke2(){
+  for(var i=0; i<markers_karaoke_nomal_nomal.length; i++){
+    markers_karaoke_nomal_nomal[i].setVisible(true);
+  }
+}
+
+function setkaraoke3(){
+  for(var i=0; i<markers_karaoke_nomal_far.length; i++){
+    markers_cafe_karaoke_far[i].setVisible(true);
+  }
+}
+
+function setkaraoke4(){
+  for(var i=0; i<markers_karaoke_ex_near.length; i++){
+    markers_karaoke_ex_near[i].setVisible(true);
+  }
+}
+function setkaraoke5(){
+  for(var i=0; i<markers_karaoke_ex_nomal.length; i++){
+    markers_karaoke_ex_nomal[i].setVisible(true);
+  }
+}
+
+function setkaraoke6(){
+  for(var i=0; i<markers_karaoke_ex_far.length; i++){
+    markers_karaoke_ex_far[i].setVisible(true);
+  }
+}
+
+function setkaraoke7(){
+  for(var i=0; i<markers_karaoke_others_near.length; i++){
+    markers_karaoke_others_near[i].setVisible(true);
+  }
+}
+
+function setkaraoke8(){
+  for(var i=0; i<markers_karaoke_others_nomal.length; i++){
+    markers_karaoke_others_noaml[i].setVisible(true);
+  }
+}
+
+function setkaraoke9(){
+  for(var i=0; i<markers_karaoke_others_far.length; i++){
+    markers_karaoke_others_far[i].setVisible(true);
+  }
+}
+
 function setnetcafe(){
   for(var i=0; i<markers_netcafe.length; i++){
     markers_netcafe[i].setVisible(true);
+  }
+}
+
+function setnetcafe1(){
+  for(var i=0; i<markers_netcafe_nomal_near.length; i++){
+    markers_netcafe_nomal_near[i].setVisible(true);
+  }
+}
+
+function setnetcafe2(){
+  for(var i=0; i<markers_netcafe_nomal_nomal.length; i++){
+    markers_netcafe_nomal_nomal[i].setVisible(true);
+  }
+}
+
+function setnetcafe3(){
+  for(var i=0; i<markers_netcafe_nomal_far.length; i++){
+    markers_netcafe_nomal_far[i].setVisible(true);
+  }
+}
+
+function setnetcafe4(){
+  for(var i=0; i<markers_netcafe_ex_near.length; i++){
+    markers_netcafe_ex_near[i].setVisible(true);
+  }
+}
+function setnetcafe5(){
+  for(var i=0; i<markers_netcafe_ex_nomal.length; i++){
+    markers_netcafe_ex_nomal[i].setVisible(true);
+  }
+}
+
+function setnetcafe6(){
+  for(var i=0; i<markers_netcafe_ex_far.length; i++){
+    markers_netcafe_ex_far[i].setVisible(true);
+  }
+}
+
+function setnetcafe7(){
+  for(var i=0; i<markers_netcafe_others_near.length; i++){
+    markers_netcafe_others_near[i].setVisible(true);
+  }
+}
+
+function setnetcafe8(){
+  for(var i=0; i<markers_netcafe_others_nomal.length; i++){
+    markers_netcafe_others_noaml[i].setVisible(true);
+  }
+}
+
+function setnetcafe9(){
+  for(var i=0; i<markers_netcafe_others_far.length; i++){
+    markers_netcafe_others_far[i].setVisible(true);
   }
 }
 
@@ -292,6 +629,45 @@ function hideMarkersAll(){
 	hide(markers_cafe_others_nomal);
 	hide(markers_cafe_others_far);
 	
+	hide(markers_famires_nomal_near);
+	hide(markers_famires_nomal_nomal);
+	hide(markers_famires_nomal_far);
+	hide(markers_famires_ex_near);
+	hide(markers_famires_ex_nomal);
+	hide(markers_famires_ex_far);
+	hide(markers_famires_others_near);
+	hide(markers_famires_others_nomal);
+	hide(markers_famires_others_far);
+	
+	hide(markers_hamburger_nomal_near);
+	hide(markers_hamburger_nomal_nomal);
+	hide(markers_hamburger_nomal_far);
+	hide(markers_hamburger_ex_near);
+	hide(markers_hamburger_ex_nomal);
+	hide(markers_hamburger_ex_far);
+	hide(markers_hamburger_others_near);
+	hide(markers_hamburger_others_nomal);
+	hide(markers_hamburger_others_far);
+	
+	hide(markers_karaoke_nomal_near);
+	hide(markers_karaoke_nomal_nomal);
+	hide(markers_karaoke_nomal_far);
+	hide(markers_karaoke_ex_near);
+	hide(markers_karaoke_ex_nomal);
+	hide(markers_karaoke_ex_far);
+	hide(markers_karaoke_others_near);
+	hide(markers_karaoke_others_nomal);
+	hide(markers_karaoke_others_far);
+	
+	hide(markers_netcafe_nomal_near);
+	hide(markers_netcafe_nomal_nomal);
+	hide(markers_netcafe_nomal_far);
+	hide(markers_netcafe_ex_near);
+	hide(markers_netcafe_ex_nomal);
+	hide(markers_netcafe_ex_far);
+	hide(markers_netcafe_others_near);
+	hide(markers_netcafe_others_nomal);
+	hide(markers_netcafe_others_far);
 	
   //for(var i=0; i<markers_cafe.length; i++){
     //markers_cafe[i].setVisible(false);
