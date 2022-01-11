@@ -268,58 +268,82 @@ function setnetcafe(){
 }
 
 //マーカー非表示
+
+function hide(marker){
+	for(var i=0; i<marker.length; i++){
+    		marker[i].setVisible(false);
+  	}
+}
+
 function hideMarkersAll(){
-  for(var i=0; i<markers_cafe.length; i++){
-    markers_cafe[i].setVisible(false);
-  }
-  for(var j=0; j<markers_famires.length; j++){
-    markers_famires[j].setVisible(false);
-  }
-  for(var k=0; k<markers_hamburger.length; k++){
-    markers_hamburger[k].setVisible(false);
-  }
-  for(var l=0; l<markers_karaoke.length; l++){
-    markers_karaoke[l].setVisible(false);
-  }
-  for(var m=0; m<markers_netcafe.length; m++){
-    markers_netcafe[m].setVisible(false);
-  }
+	hide(markers_cafe);
+	hide(markers_famires);
+	hide(markers_hamburger);
+	hide(markers_karaoke);
+	hide(markers_netcafe);
 	
-  for(var i=0; i<markers_cafe_nomal_near.length; i++){
-    markers_cafe_nomal_near[i].setVisible(false);
-  }
+	hide(markers_cafe_nomal_near);
+	hide(markers_cafe_nomal_nomal);
+	hide(markers_cafe_nomal_far);
+	hide(markers_cafe_ex_near);
+	hide(markers_cafe_ex_nomal);
+	hide(markers_cafe_ex_far);
+	hide(markers_cafe_others_near);
+	hide(markers_cafe_others_nomal);
+	hide(markers_cafe_others_far);
+	
+	
+  //for(var i=0; i<markers_cafe.length; i++){
+    //markers_cafe[i].setVisible(false);
+  //}
+  //for(var j=0; j<markers_famires.length; j++){
+    //markers_famires[j].setVisible(false);
+  //}
+  //for(var k=0; k<markers_hamburger.length; k++){
+    //markers_hamburger[k].setVisible(false);
+  //}
+  //for(var l=0; l<markers_karaoke.length; l++){
+    //markers_karaoke[l].setVisible(false);
+  //}
+  //for(var m=0; m<markers_netcafe.length; m++){
+    //markers_netcafe[m].setVisible(false);
+  //}
+	
+  //for(var i=0; i<markers_cafe_nomal_near.length; i++){
+    //markers_cafe_nomal_near[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_nomal_nomal.length; i++){
-    markers_cafe_nomal_nomal[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_nomal_nomal.length; i++){
+    //markers_cafe_nomal_nomal[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_nomal_far.length; i++){
-    markers_cafe_nomal_far[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_nomal_far.length; i++){
+    //markers_cafe_nomal_far[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_ex_near.length; i++){
-    markers_cafe_ex_near[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_ex_near.length; i++){
+    //markers_cafe_ex_near[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_ex_nomal.length; i++){
-    markers_cafe_ex_nomal[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_ex_nomal.length; i++){
+    //markers_cafe_ex_nomal[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_ex_far.length; i++){
-    markers_cafe_ex_far[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_ex_far.length; i++){
+    //markers_cafe_ex_far[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_others_near.length; i++){
-    markers_cafe_others_near[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_others_near.length; i++){
+    //markers_cafe_others_near[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_others_nomal.length; i++){
-    markers_cafe_others_noaml[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_others_nomal.length; i++){
+    //markers_cafe_others_noaml[i].setVisible(false);
+  //}
 
-  for(var i=0; i<markers_cafe_others_far.length; i++){
-    markers_cafe_others_far[i].setVisible(false);
-  }
+  //for(var i=0; i<markers_cafe_others_far.length; i++){
+   //markers_cafe_others_far[i].setVisible(false);
+  //}
 }
 
 function initMap() {
