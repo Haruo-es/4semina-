@@ -3,8 +3,8 @@ var currentInfoWindow = null;
 
 var place_all = [];
 var place_cafe = [], place_famires = [], place_hamburger = [], place_karaoke = [], place_netcafe = [];
-var place_0 = [], place_1 = [], place_2 = [], place_3 = [], place_4 =[], place_5 = [];
-var place_200m = [], place_450m = [], place_700m = [];
+//var place_0 = [], place_1 = [], place_2 = [], place_3 = [], place_4 =[], place_5 = [];
+//var place_200m = [], place_450m = [], place_700m = [];
 var markers_cafe = [], markers_famires = [], markers_hamburger = [], markers_karaoke = [], markers_netcafe = []; 
 
 var markers_cafe_nomal_near = [], markers_cafe_nomal_nomal = [], markers_cafe_nomal_far = [];
