@@ -236,6 +236,7 @@ input[type=radio] {
     width: auto;
     vertical-align: middle;
     border-radius: 4px;
+    margin-left: 20px
 }
 input[type="radio"] + ::before, input[type="radio"] + ::after {
     position: absolute;
