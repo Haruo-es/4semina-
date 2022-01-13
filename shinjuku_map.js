@@ -86,38 +86,38 @@ function createData(results) {
         break;
       }
     
-      switch(results[i].price_level) {
-        case 4:
-          place_4.push(x);
-          break;
-        case 3:
-          place_3.push(x);
-          break;
-        case 2:
-          place_2.push(x);
-          break;
-        case 1:
-          place_1.push(x);
-          break;
-        case 0:
-          place_0.push(x);
-          break;
-        default:
+      //switch(results[i].price_level) {
+        //case 4:
+          //place_4.push(x);
+          //break;
+        //case 3:
+          //place_3.push(x);
+          //break;
+        //case 2:
+          //place_2.push(x);
+          //break;
+        //case 1:
+          //place_1.push(x);
+          //break;
+        //case 0:
+          //place_0.push(x);
+          //break;
+        //default:
           // price_level無し
-          place_5.push(x);
-      }
+          //place_5.push(x);
+      //}
 
-      switch(true) {
-        case results[i].distance < 200:
-          place_200m.push(x);
-          break;      
-        case results[i].distance < 450:
-          place_450m.push(x);
-          break;      
-        case results[i].distance < 700:
-          place_700m.push(x);
-          break;      
-      }
+      //switch(true) {
+        //case results[i].distance < 200:
+          //place_200m.push(x);
+          //break;      
+        //case results[i].distance < 450:
+          //place_450m.push(x);
+          //break;      
+        //case results[i].distance < 700:
+          //place_700m.push(x);
+          //break;      
+      //}
    } 
 }
 
