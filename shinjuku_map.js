@@ -700,7 +700,7 @@ function hideMarkersAll(){
 function initMap() {
   console.log("xx3");
   var target = document.getElementById('map');  
-  var latlng = {lat: 35.690921, lng: 139.70025799999996};  //新宿駅の緯度経度
+  var latlng = {lat: 35.68979838458686, lng: 139.70056056883294};  //新宿駅の緯度経度(35.68979838458686, 139.70056056883294)
   map = new google.maps.Map(document.getElementById('map'), {
     center: latlng,
     zoom: 16
