@@ -218,6 +218,58 @@ header a {
 }
 /* ヘッダー ここまで */
 
+/* ラジオボタン ここから */
+input[type=radio] {
+    appearance: none;
+    display: none;
+    opacity: 0;
+    width: 1px;
+    position: absolute;
+    height: 1px;
+}
+.radio01{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 11px 8px 36px;
+    position: relative;
+    width: auto;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+input[type="radio"] + ::before, input[type="radio"] + ::after {
+    position: absolute;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto 10px auto 0;
+    box-sizing: border-box;
+}
+input[type="radio"] + ::before {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #231815;
+    left: 9px;
+}
+input[type="radio"] + ::after {
+    width: 10px;
+    height: 10px;
+    background: #231815;
+    left: 14px;
+    opacity: 0;
+}
+input[type="radio"]:checked + ::before {
+    border: 1px solid #231815;
+}
+input[type="radio"]:checked + ::after {
+    background: #ed7a9c;
+    opacity: 1;
+}
+/* ラジオボタン ここまで */
+
 /* チェックボックス ここから */
 input[type=checkbox] {
     display: none;
