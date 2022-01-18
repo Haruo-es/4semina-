@@ -120,7 +120,7 @@ function createMarker(i, place) {
   });
 	var openingHour = openingHours(fGetWeek(), place, i)
     
-    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●国分寺駅から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
+    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●津田塾大学から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
 	
     if(place[i].website){
 	contentStr = contentStr + place[i].website + '>ホームページ</a> / '
