@@ -56,7 +56,7 @@ function createData(results) {
     t = results[i].website;
     u = results[i].hours;
     x["name"] = y;
-    x["price"] = z;
+    x["price_level"] = z;
     x["distance"] = r;
     x["url"] = s;
     x["website"] = t;
