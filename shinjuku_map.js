@@ -170,25 +170,25 @@ function createMarker(i, place) {
 function cafe() {
   for (var i=0; i<place_cafe.length; i++) {
 	  if(place_cafe[i].price_level = 2){
-		  if(place_cafe[i].distance <= 100){
+		  if(place_cafe[i].distance <= 300){
 			  markers_cafe_nomal_near.push(createMarker(i, place_cafe));
-		  }else if(place_cafe[i].distance > 100 && place_cafe[i].distance <= 300){
+		  }else if(place_cafe[i].distance > 300 && place_cafe[i].distance <= 500){
 			  markers_cafe_nomal_nomal.push(createMarker(i, place_cafe));
 		  }else{
 		  	  markers_cafe_nomal_far.push(createMarker(i, place_cafe));
 		  }
 	  }else if(place_cafe[i].price_level = 3){
-	  	if(place_cafe[i].distance <= 100){
+	  	if(place_cafe[i].distance <= 300){
 			markers_cafe_ex_near.push(createMarker(i, place_cafe));
-		}else if(place_cafe[i].distance > 100 && place_cafe[i].distance <= 300){
+		}else if(place_cafe[i].distance > 300 && place_cafe[i].distance <= 500){
 			markers_cafe_ex_nomal.push(createMarker(i, place_cafe));
 		}else{
 		  	markers_cafe_ex_far.push(createMarker(i, place_cafe));
 		}
 	  }else{
-	  	if(place_cafe[i].distance <= 100){
+	  	if(place_cafe[i].distance <= 300){
 			markers_cafe_far_near.push(createMarker(i, place_cafe));
-		}else if(place_cafe[i].distance > 100 && place_cafe[i].distance <= 300){
+		}else if(place_cafe[i].distance > 300 && place_cafe[i].distance <= 500){
 			markers_cafe_far_nomal.push(createMarker(i, place_cafe));
 		}else{
 		  	markers_cafe_far_far.push(createMarker(i, place_cafe));
@@ -203,25 +203,25 @@ function cafe() {
 function famires() {
   for (var i=0; i<place_famires.length; i++) {
 	  if(place_famires[i].price_level = 2){
-		  if(place_famires[i].distance <= 100){
+		  if(place_famires[i].distance <= 300){
 			  markers_famires_nomal_near.push(createMarker(i, place_famires));
-		  }else if(place_famires[i].distance > 100 && place_famires[i].distance <= 300){
+		  }else if(place_famires[i].distance > 300 && place_famires[i].distance <= 500){
 			  markers_famires_nomal_nomal.push(createMarker(i, place_famires));
 		  }else{
 		  	  markers_famires_nomal_far.push(createMarker(i, place_famires));
 		  }
 	  }else if(place_famires[i].price_level = 3){
-	  	if(place_famires[i].distance <= 100){
+	  	if(place_famires[i].distance <= 300){
 			markers_famires_ex_near.push(createMarker(i, place_famires));
-		}else if(place_famires[i].distance > 100 && place_famires[i].distance <= 300){
+		}else if(place_famires[i].distance > 300 && place_famires[i].distance <= 500){
 			markers_famires_ex_nomal.push(createMarker(i, place_famires));
 		}else{
 		  	markers_famires_ex_far.push(createMarker(i, place_famires));
 		}
 	  }else{
-	  	if(place_famires[i].distance <= 100){
+	  	if(place_famires[i].distance <= 300){
 			markers_famires_far_near.push(createMarker(i, place_famires));
-		}else if(place_famires[i].distance > 100 && place_famires[i].distance <= 300){
+		}else if(place_famires[i].distance > 300 && place_famires[i].distance <= 500){
 			markers_famires_far_nomal.push(createMarker(i, place_famires));
 		}else{
 		  	markers_famires_far_far.push(createMarker(i, place_famires));
@@ -236,25 +236,25 @@ function famires() {
 function hamburger() {
   for (var i=0; i<place_hamburger.length; i++) {
 	  if(place_hamburger[i].price_level = 2){
-		  if(place_hamburger[i].distance <= 100){
+		  if(place_hamburger[i].distance <= 300){
 			  markers_hamburger_nomal_near.push(createMarker(i, place_hamburger));
-		  }else if(place_hamburger[i].distance > 100 && place_hamburger[i].distance <= 300){
+		  }else if(place_hamburger[i].distance > 300 && place_hamburger[i].distance <= 500){
 			  markers_hamburger_nomal_nomal.push(createMarker(i, place_hamburger));
 		  }else{
 		  	  markers_hamburger_nomal_far.push(createMarker(i, place_hamburger));
 		  }
 	  }else if(place_hamburger[i].price_level = 3){
-	  	if(place_hamburger[i].distance <= 100){
+	  	if(place_hamburger[i].distance <= 300){
 			markers_hamburger_ex_near.push(createMarker(i, place_hamburger));
-		}else if(place_hamburger[i].distance > 100 && place_hamburger[i].distance <= 300){
+		}else if(place_hamburger[i].distance > 300 && place_hamburger[i].distance <= 500){
 			markers_hamburger_ex_nomal.push(createMarker(i, place_hamburger));
 		}else{
 		  	markers_hamburger_ex_far.push(createMarker(i, place_hamburger));
 		}
 	  }else{
-	  	if(place_hamburger[i].distance <= 100){
+	  	if(place_hamburger[i].distance <= 300){
 			markers_hamburger_far_near.push(createMarker(i, place_hamburger));
-		}else if(place_hamburger[i].distance > 100 && place_hamburger[i].distance <= 300){
+		}else if(place_hamburger[i].distance > 300 && place_hamburger[i].distance <= 500){
 			markers_hamburger_far_nomal.push(createMarker(i, place_hamburger));
 		}else{
 		  	markers_hamburger_far_far.push(createMarker(i, place_hamburger));
@@ -269,25 +269,25 @@ function hamburger() {
 function karaoke() {
   for (var i=0; i<place_karaoke.length; i++) {
 	  if(place_karaoke[i].price_level = 2){
-		  if(place_karaoke[i].distance <= 100){
+		  if(place_karaoke[i].distance <= 300){
 			  markers_karaoke_nomal_near.push(createMarker(i, place_karaoke));
-		  }else if(place_karaoke[i].distance > 100 && place_karaoke[i].distance <= 300){
+		  }else if(place_karaoke[i].distance > 300 && place_karaoke[i].distance <= 500){
 			  markers_karaoke_nomal_nomal.push(createMarker(i, place_karaoke));
 		  }else{
 		  	  markers_karaoke_nomal_far.push(createMarker(i, place_karaoke));
 		  }
 	  }else if(place_karaoke[i].price_level = 3){
-	  	if(place_karaoke[i].distance <= 100){
+	  	if(place_karaoke[i].distance <= 300){
 			markers_karaoke_ex_near.push(createMarker(i, place_karaoke));
-		}else if(place_karaoke[i].distance > 100 && place_karaoke[i].distance <= 300){
+		}else if(place_karaoke[i].distance > 300 && place_karaoke[i].distance <=500){
 			markers_karaoke_ex_nomal.push(createMarker(i, place_karaoke));
 		}else{
 		  	markers_karaoke_ex_far.push(createMarker(i, place_karaoke));
 		}
 	  }else{
-	  	if(place_karaoke[i].distance <= 100){
+	  	if(place_karaoke[i].distance <= 300){
 			markers_karaoke_far_near.push(createMarker(i, place_karaoke));
-		}else if(place_karaoke[i].distance > 100 && place_karaoke[i].distance <= 300){
+		}else if(place_karaoke[i].distance > 300 && place_karaoke[i].distance <= 500){
 			markers_karaoke_far_nomal.push(createMarker(i, place_karaoke));
 		}else{
 		  	markers_karaoke_far_far.push(createMarker(i, place_karaoke));
@@ -302,25 +302,25 @@ function karaoke() {
 function netcafe() {
   for (var i=0; i<place_netcafe.length; i++) {
 	  if(place_netcafe[i].price_level = 2){
-		  if(place_netcafe[i].distance <= 100){
+		  if(place_netcafe[i].distance <= 300){
 			  markers_netcafe_nomal_near.push(createMarker(i, place_netcafe));
-		  }else if(place_netcafe[i].distance > 100 && place_netcafe[i].distance <= 300){
+		  }else if(place_netcafe[i].distance > 300 && place_netcafe[i].distance <= 500){
 			  markers_netcafe_nomal_nomal.push(createMarker(i, place_netcafe));
 		  }else{
 		  	  markers_netcafe_nomal_far.push(createMarker(i, place_netcafe));
 		  }
 	  }else if(place_netcafe[i].price_level = 3){
-	  	if(place_netcafe[i].distance <= 100){
+	  	if(place_netcafe[i].distance <= 300){
 			markers_netcafe_ex_near.push(createMarker(i, place_netcafe));
-		}else if(place_netcafe[i].distance > 100 && place_netcafe[i].distance <= 300){
+		}else if(place_netcafe[i].distance > 300 && place_netcafe[i].distance <= 500){
 			markers_netcafe_ex_nomal.push(createMarker(i, place_netcafe));
 		}else{
 		  	markers_netcafe_ex_far.push(createMarker(i, place_netcafe));
 		}
 	  }else{
-	  	if(place_netcafe[i].distance <= 100){
+	  	if(place_netcafe[i].distance <= 300){
 			markers_netcafe_far_near.push(createMarker(i, place_netcafe));
-		}else if(place_netcafe[i].distance > 100 && place_netcafe[i].distance <= 300){
+		}else if(place_netcafe[i].distance > 300 && place_netcafe[i].distance <= 500){
 			markers_netcafe_far_nomal.push(createMarker(i, place_netcafe));
 		}else{
 		  	markers_netcafe_far_far.push(createMarker(i, place_netcafe));
