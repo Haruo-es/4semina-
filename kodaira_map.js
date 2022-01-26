@@ -53,6 +53,8 @@ function createData(results) {
 	s = results[i].url;
 	t = results[i].website;
 	u = results[i].hours;
+	v = results[i].board;    
+	
 	x["name"] = y;
 	x["price"] = z;
 	
@@ -60,6 +62,7 @@ function createData(results) {
 	x["url"] = s;
 	x["website"] = t;
 	x["opening_hours"] = u;
+    	x["board"] = v;
 
     switch(results[i].shop) {
       case "cafe":
@@ -120,7 +123,7 @@ function createMarker(i, place) {
   });
 	var openingHour = openingHours(fGetWeek(), place, i)
     
-    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●津田塾大学から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
+    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●津田塾大学から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：' + openingHour + '</a><br><a href=' + place[i].board + '>掲示板</a>' + '<br><a href=';
 	
     if(place[i].website){
 	contentStr = contentStr + place[i].website + '>ホームページ</a> / '
