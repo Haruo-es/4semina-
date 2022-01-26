@@ -55,12 +55,15 @@ function createData(results) {
     s = results[i].url;
     t = results[i].website;
     u = results[i].hours;
+    v = results[i].board;
+      
     x["name"] = y;
     x["price_level"] = z;
     x["distance"] = r;
     x["url"] = s;
     x["website"] = t;
     x["opening_hours"] = u;
+    x["board"] = v;
     place_all.push(x);
 
     switch(results[i].shop) {
@@ -144,12 +147,13 @@ function createMarker(i, place) {
   });
 	var openingHour = openingHours(fGetWeek(), place, i)
     
-    	var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●新宿駅から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a>' + '<br><a href=';
+    var contentStr = '<a>' + place[i].name + '<br>●Wi-Fi<br>●新宿駅から' + place[i].distance + 'm<br>●' + week[fGetWeek()] + '曜日の営業時間：'+ openingHour + '</a><br><a href=' + place[i].board + '>掲示板</a>' + '<br><a href=';
 	
     if(place[i].website){
 	contentStr = contentStr + place[i].website + '>ホームページ</a> / '
     }
     contentStr = contentStr + '<a href=' + place[i].url + '>Google検索</a>'
+
     
 
   var infoWindow = new google.maps.InfoWindow({
