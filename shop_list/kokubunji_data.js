@@ -142,7 +142,8 @@ kokubunji_data = {
                     "土曜日: 7時00分～22時30分",
                     "日曜日: 7時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/18/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -285,7 +286,8 @@ kokubunji_data = {
                     "土曜日: 7時00分～21時00分",
                     "日曜日: 7時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/19/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -427,7 +429,8 @@ kokubunji_data = {
                     "土曜日: 10時00分～20時30分",
                     "日曜日: 10時00分～20時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/20/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -570,7 +573,8 @@ kokubunji_data = {
                     "土曜日: 7時00分～20時00分",
                     "日曜日: 7時00分～20時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/21/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -713,7 +717,8 @@ kokubunji_data = {
                     "土曜日: 11時00分～23時00分",
                     "日曜日: 11時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/22/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -857,7 +862,8 @@ kokubunji_data = {
                     "土曜日: 11時00分～22時00分",
                     "日曜日: 11時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/23/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -992,7 +998,8 @@ kokubunji_data = {
                     "土曜日: 11時30分～15時00分",
                     "日曜日: 11時30分～18時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/24/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1134,7 +1141,8 @@ kokubunji_data = {
                     "土曜日: 6時45分～23時00分",
                     "日曜日: 6時45分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/25/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1276,7 +1284,8 @@ kokubunji_data = {
                     "土曜日: 7時30分～23時30分",
                     "日曜日: 7時30分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/26/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1418,7 +1427,8 @@ kokubunji_data = {
                     "土曜日: 10時00分～23時30分",
                     "日曜日: 10時00分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/27/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1560,7 +1570,8 @@ kokubunji_data = {
                     "土曜日: 8時00分～23時30分",
                     "日曜日: 8時00分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/28/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1702,7 +1713,8 @@ kokubunji_data = {
                     "土曜日: 7時00分～20時00分",
                     "日曜日: 7時00分～20時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/29/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1846,7 +1858,8 @@ kokubunji_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/30/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1988,7 +2001,8 @@ kokubunji_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/31/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2063,7 +2077,8 @@ kokubunji_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/32/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2203,7 +2218,8 @@ kokubunji_data = {
                     "土曜日: 11時00分～6時00分",
                     "日曜日: 11時00分～6時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/33/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2280,7 +2296,8 @@ kokubunji_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/34/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2355,7 +2372,8 @@ kokubunji_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/2/topics/35/"
         }
     ],
     "status": "OK"
