@@ -141,7 +141,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～21時00分",
                     "日曜日: 7時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/36/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -283,7 +284,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～21時00分",
                     "日曜日: 7時30分～20時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/37/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -425,7 +427,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 8時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/38/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -567,7 +570,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時30分",
                     "日曜日: 7時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/39/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -710,7 +714,8 @@ shinjuku_data = {
                     "土曜日: 6時45分～20時00分",
                     "日曜日: 7時30分～20時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/40/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -852,7 +857,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～20時00分",
                     "日曜日: 8時00分～20時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/41/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -994,7 +1000,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～23時00分",
                     "日曜日: 8時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/42/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1137,7 +1144,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～22時30分",
                     "日曜日: 7時30分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/43/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1279,7 +1287,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～22時30分",
                     "日曜日: 7時30分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/44/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1422,7 +1431,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～19時00分",
                     "日曜日: 8時00分～19時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/45/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1565,67 +1575,70 @@ shinjuku_data = {
                     "土曜日: 8時00分～22時30分",
                     "日曜日: 8時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/46/"
         },
-        //閉店
-        //{
-            //"business_status": "OPERATIONAL",
-            //"geometry": {
-                //"location": {
-                    //"lat": 35.6925768,
-                    //"lng": 139.70139
-                //},
-                //"viewport": {
-                    //"northeast": {
-                        //"lat": 35.69381417989273,
-                        //"lng": 139.7026883298928
-                    //},
-                    //"southwest": {
-                        //"lat": 35.69111452010728,
-                        //"lng": 139.6999886701073
-                    //}
-                //}
-            //},
-            //"icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-            //"icon_background_color": "#FF9E67",
-            //"icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
-            //"name": "喫茶室ルノアール 新宿アルタ横店",
-            //"opening_hours": {
-                //"open_now": false
-            //},
-            //"photos": [
-                //{
-                    //"height": 600,
-                    //"html_attributions": [
-                        //"<a href=\"https://maps.google.com/maps/contrib/118403055043105600781\">喫茶室ルノアール 新宿アルタ横店</a>"
-                    //],
-                    //"photo_reference": "Aap_uEAklr7eK_JbiBN7MS-QDbW_Nx8vKg_NnAaeTn9jxFJS6Y1A9i7qkPZGjHQfkpeE2EFB-QI-gx3bJK8fDGXD0qYlHkPIzzGKH6osJApE2sBPjZLEddiRRwD1eStC4Axc_Ns_PdA5-xpLzo2-nIjBeNCKJiZty6Qu_1ly6ZawHP0-dnrW",
-                    //"width": 800
-                //}
-            //],
-            //"place_id": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
-            //"plus_code": {
-                //"compound_code": "MPV2+2H 新宿区、東京都",
-                //"global_code": "8Q7XMPV2+2H"
-            //},
-            //"price_level": 3,
-            //"rating": 3.4,
-            //"reference": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
-            //"scope": "GOOGLE",
-            //"types": [
-                //"cafe",
-                //"food",
-                //"point_of_interest",
-                //"store",
-                //"establishment"
-            //],
-            //"user_ratings_total": 428,
-            //"vicinity": "新宿区新宿３丁目２４−２, 青木ビル, B1F",
-            //"shop": "cafe",
-            //"url": "https://www.google.com/search?q=喫茶室ルノアール+新宿アルタ横店&hl=ja&ie=UTF-8",
-            //"distance": 210,
-            //"phone": "03-3356-3738"
-        //},
+	/* 閉店
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 35.6925768,
+                    "lng": 139.70139
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.69381417989273,
+                        "lng": 139.7026883298928
+                    },
+                    "southwest": {
+                        "lat": 35.69111452010728,
+                        "lng": 139.6999886701073
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+            "icon_background_color": "#FF9E67",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+            "name": "喫茶室ルノアール 新宿アルタ横店",
+            "opening_hours": {
+                "open_now": false
+            },
+            "photos": [
+                {
+                    "height": 600,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/118403055043105600781\">喫茶室ルノアール 新宿アルタ横店</a>"
+                    ],
+                    "photo_reference": "Aap_uEAklr7eK_JbiBN7MS-QDbW_Nx8vKg_NnAaeTn9jxFJS6Y1A9i7qkPZGjHQfkpeE2EFB-QI-gx3bJK8fDGXD0qYlHkPIzzGKH6osJApE2sBPjZLEddiRRwD1eStC4Axc_Ns_PdA5-xpLzo2-nIjBeNCKJiZty6Qu_1ly6ZawHP0-dnrW",
+                    "width": 800
+                }
+            ],
+            "place_id": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
+            "plus_code": {
+                "compound_code": "MPV2+2H 新宿区、東京都",
+                "global_code": "8Q7XMPV2+2H"
+            },
+            "price_level": 3,
+            "rating": 3.4,
+            "reference": "ChIJj0z0_dmMGGARwV1ebdbeCMw",
+            "scope": "GOOGLE",
+            "types": [
+                "cafe",
+                "food",
+                "point_of_interest",
+                "store",
+                "establishment"
+            ],
+            "user_ratings_total": 428,
+            "vicinity": "新宿区新宿３丁目２４−２, 青木ビル, B1F",
+            "shop": "cafe",
+            "url": "https://www.google.com/search?q=喫茶室ルノアール+新宿アルタ横店&hl=ja&ie=UTF-8",
+            "distance": 210,
+            "phone": "03-3356-3738",
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/47/"
+        },
+*/
         {
             "business_status": "OPERATIONAL",
             "geometry": {
@@ -1767,7 +1780,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～22時30分",
                     "日曜日: 8時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/48/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1910,7 +1924,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～22時30分",
                     "日曜日: 8時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/49/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2053,7 +2068,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～22時30分",
                     "日曜日: 8時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/50/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2196,7 +2212,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～22時30分",
                     "日曜日: 8時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/51/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2338,7 +2355,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～22時30分",
                     "日曜日: 8時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/52/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2481,7 +2499,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～22時30分",
                     "日曜日: 7時30分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/53/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2624,7 +2643,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～22時30分",
                     "日曜日: 8時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/54/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2767,7 +2787,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～22時30分",
                     "日曜日: 8時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/55/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2910,7 +2931,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～21時00分",
                     "日曜日: 8時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/56/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -3053,7 +3075,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 8時00分～21時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/57/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -3195,7 +3218,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～21時00分",
                     "日曜日: 11時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/58/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -3339,7 +3363,8 @@ shinjuku_data = {
                     "土曜日: 10時00分～23時00分",
                     "日曜日: 10時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/59/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -3482,7 +3507,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/60/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -3627,7 +3653,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時30分",
                     "日曜日: 7時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/61/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -3772,7 +3799,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 7時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/62/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -3917,7 +3945,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/63/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -4062,7 +4091,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～22時00分",
                     "日曜日: 8時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/64/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -4205,7 +4235,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 7時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/65/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -4350,7 +4381,8 @@ shinjuku_data = {
                     "土曜日: 10時30分～22時30分",
                     "日曜日: 10時30分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/66/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -4495,7 +4527,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～21時00分",
                     "日曜日: 7時30分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/67/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -4640,7 +4673,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～21時00分",
                     "日曜日: 7時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/68/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -4785,7 +4819,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～21時00分",
                     "日曜日: 8時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/69/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -4930,7 +4965,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～20時30分",
                     "日曜日: 8時00分～20時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/70/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -5073,7 +5109,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～21時00分",
                     "日曜日: 7時30分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/71/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -5218,7 +5255,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 7時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/72/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -5363,7 +5401,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時30分",
                     "日曜日: 7時00分～22時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/73/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -5506,7 +5545,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 7時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/74/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -5649,7 +5689,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～20時00分",
                     "日曜日: 9時00分～20時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/75/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -5792,7 +5833,8 @@ shinjuku_data = {
                     "土曜日: 7時30分～23時00分",
                     "日曜日: 7時30分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/76/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -5935,7 +5977,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～20時00分",
                     "日曜日: 8時00分～20時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/77/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6079,7 +6122,8 @@ shinjuku_data = {
                     "土曜日: 10時30分～21時30分",
                     "日曜日: 10時30分～21時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/78/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6222,7 +6266,8 @@ shinjuku_data = {
                     "土曜日: 10時00分～21時00分",
                     "日曜日: 10時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/79/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6364,7 +6409,8 @@ shinjuku_data = {
                     "土曜日: 9時00分～23時00分",
                     "日曜日: 9時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/80/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6497,7 +6543,8 @@ shinjuku_data = {
                     "土曜日: 10時00分～17時00分",
                     "日曜日: 定休日"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/81/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6639,7 +6686,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/82/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6781,7 +6829,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/83/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6839,7 +6888,8 @@ shinjuku_data = {
             "url": "https://www.google.com/search?q=ジョナサン+新宿五丁目店&hl=ja&ie=UTF-8",
             "distance": 523,
             "phone": "03-5155-3782",
-            "website": "https://www.skylark.co.jp/jonathan/?utm_source=js&utm_medium=gmb&utm_campaign=brandtop-Tokyo"
+            "website": "https://www.skylark.co.jp/jonathan/?utm_source=js&utm_medium=gmb&utm_campaign=brandtop-Tokyo",
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/84/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -6981,7 +7031,8 @@ shinjuku_data = {
                     "土曜日: 10時00分～23時00分",
                     "日曜日: 10時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/85/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -7123,7 +7174,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/86/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -7267,7 +7319,8 @@ shinjuku_data = {
                     "土曜日: 6時00分～23時00分",
                     "日曜日: 6時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/87/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -7411,7 +7464,8 @@ shinjuku_data = {
                     "土曜日: 6時00分～23時00分",
                     "日曜日: 6時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/88/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -7553,7 +7607,8 @@ shinjuku_data = {
                     "土曜日: 8時00分～21時00分",
                     "日曜日: 8時00分～21時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/89/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -7697,7 +7752,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 7時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/90/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -7841,7 +7897,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/91/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -7921,7 +7978,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/92/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -8063,7 +8121,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/93/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -8204,7 +8263,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/94/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -8344,7 +8404,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～6時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/95/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -8484,7 +8545,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/96/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -8603,7 +8665,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 7時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/97/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -8743,7 +8806,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～8時00分",
                     "日曜日: 11時00分～6時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/98/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -8885,7 +8949,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/99/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9025,7 +9090,8 @@ shinjuku_data = {
                     "土曜日: 12時00分～6時00分",
                     "日曜日: 12時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/100/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9100,7 +9166,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/101/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9240,7 +9307,8 @@ shinjuku_data = {
                     "土曜日: 10時30分～5時00分",
                     "日曜日: 10時30分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/102/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9380,7 +9448,8 @@ shinjuku_data = {
                     "土曜日: 7時00分～5時00分",
                     "日曜日: 7時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/103/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9520,7 +9589,8 @@ shinjuku_data = {
                     "土曜日: 10時00分～6時00分",
                     "日曜日: 10時00分～6時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/104/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9660,7 +9730,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/105/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9800,7 +9871,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～6時00分",
                     "日曜日: 11時00分～6時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/106/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -9940,7 +10012,8 @@ shinjuku_data = {
                     "土曜日: 12時00分～6時00分",
                     "日曜日: 12時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/107/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10080,7 +10153,8 @@ shinjuku_data = {
                     "土曜日: 10時00分～6時00分",
                     "日曜日: 10時00分～6時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/108/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10155,7 +10229,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/109/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10230,7 +10305,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/110/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10370,7 +10446,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～8時00分",
                     "日曜日: 11時00分～8時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/111/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10435,7 +10512,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/112/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10575,7 +10653,8 @@ shinjuku_data = {
                     "土曜日: 12時00分～5時00分",
                     "日曜日: 12時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/113/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10650,7 +10729,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/114/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10726,7 +10806,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/116/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -10866,7 +10947,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～6時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/117/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11006,7 +11088,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～6時00分",
                     "日曜日: 11時00分～6時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/118/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11146,7 +11229,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/119/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11286,7 +11370,8 @@ shinjuku_data = {
                     "土曜日: 12時00分～6時00分",
                     "日曜日: 12時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/120/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11361,7 +11446,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/121/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11501,7 +11587,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～5時00分",
                     "日曜日: 11時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/122/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11640,7 +11727,8 @@ shinjuku_data = {
                     "土曜日: 11時00分～6時00分",
                     "日曜日: 11時00分～6時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/123/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11779,7 +11867,8 @@ shinjuku_data = {
                     "土曜日: 13時00分～5時00分",
                     "日曜日: 13時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/124/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11854,7 +11943,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/125/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -11932,7 +12022,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/126/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -12007,7 +12098,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/127/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -12083,7 +12175,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/128/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -12158,7 +12251,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/129/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -12236,7 +12330,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/130/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -12311,7 +12406,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/131/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -12386,7 +12482,8 @@ shinjuku_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/3/topics/132/"
         }
     ],
     "status": "OK"
