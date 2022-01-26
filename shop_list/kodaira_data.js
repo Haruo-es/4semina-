@@ -122,7 +122,8 @@ kodaira_data = {
                     "土曜日: 定休日",
                     "日曜日: 定休日"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/1/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -264,7 +265,8 @@ kodaira_data = {
                     "土曜日: 6時00分～0時00分",
                     "日曜日: 6時00分～0時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/2/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -406,7 +408,8 @@ kodaira_data = {
                     "土曜日: 7時00分～23時30分",
                     "日曜日: 7時00分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/3/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -548,7 +551,8 @@ kodaira_data = {
                     "土曜日: 7時30分～23時30分",
                     "日曜日: 7時30分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/4/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -690,7 +694,8 @@ kodaira_data = {
                     "土曜日: 8時00分～23時30分",
                     "日曜日: 8時00分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/5/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -832,7 +837,8 @@ kodaira_data = {
                     "土曜日: 9時00分～23時30分",
                     "日曜日: 9時00分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/6/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -974,7 +980,8 @@ kodaira_data = {
                     "土曜日: 10時00分～23時30分",
                     "日曜日: 10時00分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/7/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1116,7 +1123,8 @@ kodaira_data = {
                     "土曜日: 10時00分～23時30分",
                     "日曜日: 10時00分～23時30分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/8/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1258,7 +1266,8 @@ kodaira_data = {
                     "土曜日: 7時00分～22時00分",
                     "日曜日: 7時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/9/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1400,7 +1409,8 @@ kodaira_data = {
                     "土曜日: 9時00分～22時00分",
                     "日曜日: 9時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/10/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1544,7 +1554,8 @@ kodaira_data = {
                     "土曜日: 8時00分～22時00分",
                     "日曜日: 8時00分～22時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/11/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1688,7 +1699,8 @@ kodaira_data = {
                     "土曜日: 7時00分～0時00分",
                     "日曜日: 7時00分～0時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/12/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1832,7 +1844,8 @@ kodaira_data = {
                     "土曜日: 7時00分～23時00分",
                     "日曜日: 7時00分～23時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/13/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -1951,7 +1964,8 @@ kodaira_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 0時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/14/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2090,7 +2104,8 @@ kodaira_data = {
                     "土曜日: 9時00分～5時00分",
                     "日曜日: 9時00分～5時00分"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/15/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2165,7 +2180,8 @@ kodaira_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/16/"
         },
         {
             "business_status": "OPERATIONAL",
@@ -2240,7 +2256,8 @@ kodaira_data = {
                     "土曜日: 24 時間営業",
                     "日曜日: 24 時間営業"
                 ]
-            }
+            },
+            "board": "https://yuika11.pythonanywhere.com/boards/1/topics/17/"
         }
     ],
     "status": "OK"
